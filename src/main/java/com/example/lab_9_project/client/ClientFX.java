@@ -113,7 +113,6 @@ public class ClientFX extends Application {
             String txt = input.getText();
             input.clear();
 
-            Alexander Kirchuk, [02.12.2025 21:15]
             if (txt == null) return;
             if ("quit".equalsIgnoreCase(txt) || "q".equalsIgnoreCase(txt)) {
                 out.writeObject(new MsgDisconnect());
