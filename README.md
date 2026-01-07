@@ -70,23 +70,23 @@ The **protocol** defines communication between client and server:
 
 Lab-9-Project/
 ├── README.md
-├── src/
-│   ├── module-info.java
-│   ├── client/
-│   │   ├── ClientFX.java
-│   │   └── ClientMain.java
-│   ├── protocol/
-│   │   ├── Message.java
-│   │   ├── MsgConnect.java
-│   │   ├── MsgDisconnect.java
-│   │   ├── MsgShellExit.java
-│   │   ├── MsgShellInput.java
-│   │   ├── MsgShellOutput.java
-│   │   ├── MsgShellStart.java
-│   │   └── Protocol.java
-│   └── server/
-│       ├── ServerMain.java
-│       └── ServerThread.java
+└── src/
+    ├── module-info.java
+    ├── client/
+    │   ├── ClientFX.java
+    │   └── ClientMain.java
+    ├── protocol/
+    │   ├── Message.java
+    │   ├── MsgConnect.java
+    │   ├── MsgDisconnect.java
+    │   ├── MsgShellExit.java
+    │   ├── MsgShellInput.java
+    │   ├── MsgShellOutput.java
+    │   ├── MsgShellStart.java
+    │   └── Protocol.java
+    └── server/
+        ├── ServerMain.java
+        └── ServerThread.java
 ```
 
 ---
